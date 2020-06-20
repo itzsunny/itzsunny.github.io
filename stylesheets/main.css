@@ -586,14 +586,22 @@ span.amp {
 .main-links ul {
   list-style: none outside none;
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
 }
 .main-links ul li {
-  border-bottom: 1px solid #f1f1f1;
+  /* border-bottom: 1px solid #f1f1f1; */
   padding: 10px 0;
+  list-style-type: disc;
+  color: #2ecc71;
 }
 .main-links ul li a {
   font-size: 14px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #2ecc71;
+}
+svg {
+  height: 22px;
+  width: 22px;
 }
 /* Contact-info */
 /* .contact-info {
@@ -610,7 +618,7 @@ span.amp {
 
 .item-box {
   padding: 6px 6px 6px 10px;
-  border: 1px solid #f1f1f1;
+  /* border: 1px solid #f1f1f1; */
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -628,6 +636,9 @@ span.amp {
   line-height: 1em;
   margin: 3px 0px 0px 0px;
   font-size: 1em;
+}
+.item-data h3 a:hover svg {
+  fill: #449d44;
 }
 .item-box .item-data p {
   margin: 0px;
